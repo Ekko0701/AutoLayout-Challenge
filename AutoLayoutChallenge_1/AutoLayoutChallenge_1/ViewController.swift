@@ -428,10 +428,7 @@ extension ViewController {
         if let textView = firstResponder as? UITextView {
             scrollView.scrollRectToVisible(textView.frame, animated: true)
         }
-        
     }
-    
-    
     
     /// 키보드 사라질때 scrollView inset 변경
     @objc private func keyboardWillHide() {
@@ -440,3 +437,6 @@ extension ViewController {
         scrollView.scrollIndicatorInsets = contentInset
     }
 }
+
+
+
