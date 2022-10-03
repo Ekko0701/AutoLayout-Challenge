@@ -7,15 +7,15 @@
     ```swift
 
     @objc private func keyboardWillShow(_ notification: Notification) {
-    guard let userInfo = notification.userInfo,
-          let keyboardFrame = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect else { return }
-    
-    scrollView.contentInset.bottom = keyboardFrame.size.height
-    
-    let firstResponder = view.currentFirstResponder()
-    
-    if let textView = firstResponder as? UITextView {
-        scrollView.scrollRectToVisible(textView.frame, animated: true)
+        guard let userInfo = notification.userInfo,
+              let keyboardFrame = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect else { return }
+        
+        scrollView.contentInset.bottom = keyboardFrame.size.height
+        
+        let firstResponder = view.currentFirstResponder()
+        
+        if let textView = firstResponder as? UITextView {
+            scrollView.scrollRectToVisible(textView.frame, animated: true)
         }
     }
 
@@ -23,20 +23,20 @@
     
     ```swift
     extension UIView {
-    /// FirstResponder를 반환
-    /// - Returns: FirstResponder
-    func currentFirstResponder() -> UIResponder? {
-        if self.isFirstResponder {
-            return self
-        }
-        
-        for view in self.subviews {
-            if let responder = view.currentFirstResponder() {
-                return responder
+        /// FirstResponder를 반환
+        /// - Returns: FirstResponder
+        func currentFirstResponder() -> UIResponder? {
+            if self.isFirstResponder {
+                return self
             }
+            
+            for view in self.subviews {
+                if let responder = view.currentFirstResponder() {
+                    return responder
+                }
+            }
+            return nil
         }
-        return nil
-    }
     }
 
     ```
