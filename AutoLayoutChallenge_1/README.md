@@ -1,7 +1,8 @@
 ## Preview
-<img src= "https://user-images.githubusercontent.com/108163842/193484428-78bd3fb2-3502-43f0-8787-3420c4aff26a.png" width="200">
-<img src= "https://user-images.githubusercontent.com/108163842/193490513-af290636-8073-4fd3-8adf-3f765d7a01a2.gif" width="200">
-
+<figure class ="half">
+    <img src= "https://user-images.githubusercontent.com/108163842/193484428-78bd3fb2-3502-43f0-8787-3420c4aff26a.png" width="200">
+    <img src= "https://user-images.githubusercontent.com/108163842/193490513-af290636-8073-4fd3-8adf-3f765d7a01a2.gif" width="200">
+figure>
 ## Feature
 
 * UITextField를 선택하면 올라오는 Keyboard가 밑의 다른 컴포넌트를 가리지 않도록 `UIScrollView`를 사용했다.
