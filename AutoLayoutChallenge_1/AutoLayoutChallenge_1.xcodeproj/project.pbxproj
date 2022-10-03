@@ -15,8 +15,8 @@
 		6A44FE2E28E3CAA80070F5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A44FE2D28E3CAA80070F5EE /* Assets.xcassets */; };
 		6A44FE3128E3CAA80070F5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A44FE2F28E3CAA80070F5EE /* LaunchScreen.storyboard */; };
 		6A8F404F28EA7397006DCEB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F404E28EA7397006DCEB2 /* README.md */; };
+		6A8F405228EA7927006DCEB2 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F405128EA7927006DCEB2 /* SF-Pro.ttf */; };
 		6ABB220228E3D8D600284444 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB220128E3D8D600284444 /* UILabel+Ext.swift */; };
-		6ABB220428E3DA4100284444 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ABB220328E3DA4100284444 /* SF-Pro.ttf */; };
 		6ABB220628E3E92100284444 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB220528E3E92100284444 /* UIFont+Ext.swift */; };
 		6ABB220828E3ED4500284444 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB220728E3ED4500284444 /* UIColor+Ext.swift */; };
 		6AD157CD28E6E6C600B29A53 /* NSLayoutConstraint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD157CC28E6E6C600B29A53 /* NSLayoutConstraint+Ext.swift */; };
@@ -35,8 +35,8 @@
 		6A44FE3028E3CAA80070F5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A44FE3228E3CAA80070F5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A8F404E28EA7397006DCEB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A8F405128EA7927006DCEB2 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro.ttf"; path = "Font/SF-Pro.ttf"; sourceTree = SOURCE_ROOT; };
 		6ABB220128E3D8D600284444 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
-		6ABB220328E3DA4100284444 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro.ttf"; path = "../../../../../../Library/Fonts/SF-Pro.ttf"; sourceTree = "<group>"; };
 		6ABB220528E3E92100284444 /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 		6ABB220728E3ED4500284444 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		6AD157CC28E6E6C600B29A53 /* NSLayoutConstraint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Ext.swift"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		6A44FE2328E3CAA70070F5EE /* ALC_9_28 */ = {
 			isa = PBXGroup;
 			children = (
-				6ABB21FD28E3D51900284444 /* Font */,
+				6A8F405028EA7818006DCEB2 /* Fonts */,
 				6ABB220028E3D58A00284444 /* Extension */,
 				6A44FE2428E3CAA70070F5EE /* AppDelegate.swift */,
 				6A44FE2628E3CAA70070F5EE /* SceneDelegate.swift */,
@@ -89,12 +89,12 @@
 			path = AutoLayoutChallenge_1;
 			sourceTree = "<group>";
 		};
-		6ABB21FD28E3D51900284444 /* Font */ = {
+		6A8F405028EA7818006DCEB2 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				6ABB220328E3DA4100284444 /* SF-Pro.ttf */,
+				6A8F405128EA7927006DCEB2 /* SF-Pro.ttf */,
 			);
-			path = Font;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		6ABB220028E3D58A00284444 /* Extension */ = {
@@ -173,7 +173,7 @@
 				6A44FE2E28E3CAA80070F5EE /* Assets.xcassets in Resources */,
 				6A8F404F28EA7397006DCEB2 /* README.md in Resources */,
 				6A44FE2C28E3CAA70070F5EE /* Main.storyboard in Resources */,
-				6ABB220428E3DA4100284444 /* SF-Pro.ttf in Resources */,
+				6A8F405228EA7927006DCEB2 /* SF-Pro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
