@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 extension UIView {
-    
     /// FirstResponder를 반환
     /// - Returns: FirstResponder
     func currentFirstResponder() -> UIResponder? {
