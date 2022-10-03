@@ -14,20 +14,19 @@
 		6A44FE2C28E3CAA70070F5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A44FE2A28E3CAA70070F5EE /* Main.storyboard */; };
 		6A44FE2E28E3CAA80070F5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A44FE2D28E3CAA80070F5EE /* Assets.xcassets */; };
 		6A44FE3128E3CAA80070F5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A44FE2F28E3CAA80070F5EE /* LaunchScreen.storyboard */; };
+		6A8F404F28EA7397006DCEB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F404E28EA7397006DCEB2 /* README.md */; };
 		6ABB220228E3D8D600284444 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB220128E3D8D600284444 /* UILabel+Ext.swift */; };
 		6ABB220428E3DA4100284444 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ABB220328E3DA4100284444 /* SF-Pro.ttf */; };
 		6ABB220628E3E92100284444 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB220528E3E92100284444 /* UIFont+Ext.swift */; };
 		6ABB220828E3ED4500284444 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB220728E3ED4500284444 /* UIColor+Ext.swift */; };
-		6AD157CB28E6D56000B29A53 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD157CA28E6D56000B29A53 /* PaymentView.swift */; };
 		6AD157CD28E6E6C600B29A53 /* NSLayoutConstraint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD157CC28E6E6C600B29A53 /* NSLayoutConstraint+Ext.swift */; };
 		6AFD233328E965EC00EB1D29 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD233228E965EC00EB1D29 /* UIViewController+Ext.swift */; };
 		6AFD233528E96F1000EB1D29 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD233428E96F1000EB1D29 /* UIView+Ext.swift */; };
-		6AFD236028EA670400EB1D29 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6AFD235F28EA670400EB1D29 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A43F4C128E687D3009C0B63 /* CALayer+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Ext.swift"; sourceTree = "<group>"; };
-		6A44FE2128E3CAA70070F5EE /* ALC_9_28.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALC_9_28.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A44FE2128E3CAA70070F5EE /* AutoLayoutChallenge_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutChallenge_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A44FE2428E3CAA70070F5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A44FE2628E3CAA70070F5EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6A44FE2828E3CAA70070F5EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,15 +34,14 @@
 		6A44FE2D28E3CAA80070F5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A44FE3028E3CAA80070F5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A44FE3228E3CAA80070F5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8F404E28EA7397006DCEB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6ABB220128E3D8D600284444 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
 		6ABB220328E3DA4100284444 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro.ttf"; path = "../../../../../../Library/Fonts/SF-Pro.ttf"; sourceTree = "<group>"; };
 		6ABB220528E3E92100284444 /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 		6ABB220728E3ED4500284444 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
-		6AD157CA28E6D56000B29A53 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
 		6AD157CC28E6E6C600B29A53 /* NSLayoutConstraint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Ext.swift"; sourceTree = "<group>"; };
 		6AFD233228E965EC00EB1D29 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		6AFD233428E96F1000EB1D29 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
-		6AFD235F28EA670400EB1D29 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,7 @@
 		6A44FE1828E3CAA70070F5EE = {
 			isa = PBXGroup;
 			children = (
-				6AFD235F28EA670400EB1D29 /* README.md */,
+				6A8F404E28EA7397006DCEB2 /* README.md */,
 				6A44FE2328E3CAA70070F5EE /* ALC_9_28 */,
 				6A44FE2228E3CAA70070F5EE /* Products */,
 			);
@@ -69,7 +67,7 @@
 		6A44FE2228E3CAA70070F5EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A44FE2128E3CAA70070F5EE /* ALC_9_28.app */,
+				6A44FE2128E3CAA70070F5EE /* AutoLayoutChallenge_1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,13 +80,13 @@
 				6A44FE2428E3CAA70070F5EE /* AppDelegate.swift */,
 				6A44FE2628E3CAA70070F5EE /* SceneDelegate.swift */,
 				6A44FE2828E3CAA70070F5EE /* ViewController.swift */,
-				6AD157CA28E6D56000B29A53 /* PaymentView.swift */,
 				6A44FE2A28E3CAA70070F5EE /* Main.storyboard */,
 				6A44FE2D28E3CAA80070F5EE /* Assets.xcassets */,
 				6A44FE2F28E3CAA80070F5EE /* LaunchScreen.storyboard */,
 				6A44FE3228E3CAA80070F5EE /* Info.plist */,
 			);
-			path = ALC_9_28;
+			name = ALC_9_28;
+			path = AutoLayoutChallenge_1;
 			sourceTree = "<group>";
 		};
 		6ABB21FD28E3D51900284444 /* Font */ = {
@@ -116,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A44FE2028E3CAA70070F5EE /* ALC_9_28 */ = {
+		6A44FE2028E3CAA70070F5EE /* AutoLayoutChallenge_1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A44FE3528E3CAA80070F5EE /* Build configuration list for PBXNativeTarget "ALC_9_28" */;
+			buildConfigurationList = 6A44FE3528E3CAA80070F5EE /* Build configuration list for PBXNativeTarget "AutoLayoutChallenge_1" */;
 			buildPhases = (
 				6A44FE1D28E3CAA70070F5EE /* Sources */,
 				6A44FE1E28E3CAA70070F5EE /* Frameworks */,
@@ -128,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = ALC_9_28;
+			name = AutoLayoutChallenge_1;
 			productName = ALC_9_28;
-			productReference = 6A44FE2128E3CAA70070F5EE /* ALC_9_28.app */;
+			productReference = 6A44FE2128E3CAA70070F5EE /* AutoLayoutChallenge_1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6A44FE1C28E3CAA70070F5EE /* Build configuration list for PBXProject "ALC_9_28" */;
+			buildConfigurationList = 6A44FE1C28E3CAA70070F5EE /* Build configuration list for PBXProject "AutoLayoutChallenge_1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A44FE2028E3CAA70070F5EE /* ALC_9_28 */,
+				6A44FE2028E3CAA70070F5EE /* AutoLayoutChallenge_1 */,
 			);
 		};
 /* End PBXProject section */
@@ -173,7 +171,7 @@
 			files = (
 				6A44FE3128E3CAA80070F5EE /* LaunchScreen.storyboard in Resources */,
 				6A44FE2E28E3CAA80070F5EE /* Assets.xcassets in Resources */,
-				6AFD236028EA670400EB1D29 /* README.md in Resources */,
+				6A8F404F28EA7397006DCEB2 /* README.md in Resources */,
 				6A44FE2C28E3CAA70070F5EE /* Main.storyboard in Resources */,
 				6ABB220428E3DA4100284444 /* SF-Pro.ttf in Resources */,
 			);
@@ -194,7 +192,6 @@
 				6A44FE2528E3CAA70070F5EE /* AppDelegate.swift in Sources */,
 				6ABB220228E3D8D600284444 /* UILabel+Ext.swift in Sources */,
 				6ABB220828E3ED4500284444 /* UIColor+Ext.swift in Sources */,
-				6AD157CB28E6D56000B29A53 /* PaymentView.swift in Sources */,
 				6A44FE2728E3CAA70070F5EE /* SceneDelegate.swift in Sources */,
 				6ABB220628E3E92100284444 /* UIFont+Ext.swift in Sources */,
 			);
@@ -345,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34JS69S5XZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ALC_9_28/Info.plist;
+				INFOPLIST_FILE = AutoLayoutChallenge_1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -356,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ekko.ALC-9-28";
+				PRODUCT_BUNDLE_IDENTIFIER = ekko.AutoLayoutChallenge_1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,7 +370,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34JS69S5XZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ALC_9_28/Info.plist;
+				INFOPLIST_FILE = AutoLayoutChallenge_1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -384,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ekko.ALC-9-28";
+				PRODUCT_BUNDLE_IDENTIFIER = ekko.AutoLayoutChallenge_1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -395,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A44FE1C28E3CAA70070F5EE /* Build configuration list for PBXProject "ALC_9_28" */ = {
+		6A44FE1C28E3CAA70070F5EE /* Build configuration list for PBXProject "AutoLayoutChallenge_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A44FE3328E3CAA80070F5EE /* Debug */,
@@ -404,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A44FE3528E3CAA80070F5EE /* Build configuration list for PBXNativeTarget "ALC_9_28" */ = {
+		6A44FE3528E3CAA80070F5EE /* Build configuration list for PBXNativeTarget "AutoLayoutChallenge_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A44FE3628E3CAA80070F5EE /* Debug */,

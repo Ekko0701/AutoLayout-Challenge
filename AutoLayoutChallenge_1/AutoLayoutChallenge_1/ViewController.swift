@@ -74,7 +74,6 @@ class ViewController: UIViewController {
         setUpPayInfo()
         setUpPayment()
         
-        
         ///test
         selectPaymentView()
         
@@ -431,6 +430,8 @@ extension ViewController {
         }
         
     }
+    
+    
     
     /// 키보드 사라질때 scrollView inset 변경
     @objc private func keyboardWillHide() {
