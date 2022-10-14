@@ -1,5 +1,5 @@
 ## Preview
-<img src = "https://user-images.githubusercontent.com/108163842/195867785-759b0d03-0ee9-4b71-9a88-8ec82015cf82.gif" width ="32%">
+<img src = "https://user-images.githubusercontent.com/108163842/195870182-322e307b-e737-43b1-8e42-7895060566c6.gif" width ="32%">
 
 ## Feature
 
