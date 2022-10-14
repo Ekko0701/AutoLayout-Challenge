@@ -7,7 +7,7 @@
     <img src= "https://user-images.githubusercontent.com/108163842/193490513-af290636-8073-4fd3-8adf-3f765d7a01a2.gif" width="20%">
 </p>
 
-### Challenge 2 ✅
+### [Challenge 2](https://github.com/Ekko0701/AutoLayout-Challenge/tree/main/AutoLayoutChallenge_2) ✅
 <p align="center">
     <img src = "https://user-images.githubusercontent.com/108163842/195870182-322e307b-e737-43b1-8e42-7895060566c6.gif" width ="20%">
 </p>
