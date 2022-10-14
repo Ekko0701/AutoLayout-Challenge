@@ -8,6 +8,6 @@
 </p>
 
 ### Challenge 2 ✅
-<p align="left">
+<p align="center">
     <img src = "https://user-images.githubusercontent.com/108163842/195867785-759b0d03-0ee9-4b71-9a88-8ec82015cf82.gif" width ="20%">
 </p>
